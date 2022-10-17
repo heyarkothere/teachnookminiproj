@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Miniproject</title>
+   <style>
+    #a{grid-area: a;}
+    #b{grid-area: b;}
+    #c{grid-area: c;}
+    #d{grid-area: d;}
+    #e{grid-area: e;}
+    #f{grid-area: f;}
+body{
+    text-align: center;
+    background-image: url('flag.jpg');
+    margin-top: 2rem;
+}
+.header{
+    margin-bottom: 0rem;
+    padding:10px;
+    text-align: center;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    font-size: 15px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: green;
+  color: white;
+  text-align: center;
+}
+    #maindiv{
+        display: grid; 
+        grid-template-areas: 'a a a b b b'
+        'c c c d d d'
+        'e e e f f f';
+
+    }
+    #a,#b,#c,#d,#e,#f{
+        position: relative;
+        margin: auto;
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    p{
+        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
+    }
+    h3{
+        font-family: 'Roboto Mono', monospace;
+
+        font-size:x-large;
+    }
+   </style>
+   <script src="https://kit.fontawesome.com/c9f167c673.js" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header"><h1>Historical Places of INDIA</h1></div>
+    <div id="maindiv">
+    <div id="a">
+        <a href="https://en.wikipedia.org/wiki/Red_Fort"><img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Delhi_fort.jpg" width="200px" height="200px"></a>
+        <h3>Red Fort</h3>
+        <p>It is a historic fort in Old Delhi,India that served as the main residence of the Mughal Emperors.</p>
+    </div>
+    <div id="b">
+        <a href="https://en.wikipedia.org/wiki/Taj_Mahal"><img src="https://upload.wikimedia.org/wikipedia/commons/6/67/Taj_Mahal_in_India_-_Kristian_Bertel.jpg" width="200px" height="200px"></a>
+    <h3>Taj Mahal</h3>
+    <p>The Taj Mahal was commissioned by Shah Jahan in 1631, to be built in the memory of his wife Mumtaz Mahal.</p>
+    </div>
+    <div id="c">
+        <a href="https://en.wikipedia.org/wiki/Qutb_Minar"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c0/Qutb_Minar_2011.jpg" width="150px" height="250px"></a>
+        <h3>Qutub Minar</h3>
+        <p>The Qutb Minar was built over the ruins of the Lal Kot, the citadel of Dhillika.</p>
+    </div>
+    <div id="d">
+        <a href="https://en.wikipedia.org/wiki/Fatehpur_Sikri"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/Fatehput_Sikiri_Buland_Darwaza_gate_2010.jpg" width="200px" height="200px"></a>
+        <h3>Fatehpur Sikiri</h3>
+        <p>Fatehpur Sikri was founded as the capital of Mughal Empire in 1571 by Emperor Akbar, serving this role from 1571 to 1585</p>
+    </div>
+    <div id="e">
+        <a href="https://en.wikipedia.org/wiki/India_Gate"><img src="https://upload.wikimedia.org/wikipedia/commons/0/09/India_Gate_in_New_Delhi_03-2016.jpg" width="200px" height="200px"></a>
+        <h3>India Gate</h3>
+        <p>
+          India Gate came into existence in December 1918 under the British rule for building war graves and memorials to soldiers who were killed in the First World War.
+        </p>
+    </div>
+    <div id="f">
+        <a href="https://en.wikipedia.org/wiki/Victoria_Memorial,_Kolkata"><img src="https://upload.wikimedia.org/wikipedia/commons/7/72/Victoria_Memorial_situated_in_Kolkata.jpg" width="200px" height="200px"></a>
+        <h3>Victoria Memorial</h3>
+        <p>The Victoria Memorial is a large marble building on the Maidan in Central Kolkata,in the memory of Queen Victoria.</p>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Created by Dipyaman Pal</p>
+      </div>
+      <audio controls autoplay >
+        <source src="Yeh Jo Des Hai Tera.mp3" controls>
+      </audio>
+</body>
+</html>
